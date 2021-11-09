@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.myself img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.myself{
+
+  margin: 1rem;
+  padding: 1rem;
+  /* IMPORTANTE */
+  text-align: center;
+}
+
+.myself h5{
+    font-size: 35px;
+    
+}
+
+
