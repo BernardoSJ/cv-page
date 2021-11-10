@@ -3,6 +3,21 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html,body{
+    overflow-x: hidden;
+  height:100%;
+  
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.navbar-collapse.in {
+    display: block !important;
+    z-index: 100px;
+}
+
 .myself img{
     height: 300px;
     width: 300px;
@@ -13,7 +28,6 @@
 
   margin: 1rem;
   padding: 1rem;
-  /* IMPORTANTE */
   text-align: center;
 }
 
@@ -21,5 +35,163 @@
     font-size: 35px;
     
 }
+/*Start who am i section*/
+.who-am-i{
+    width:100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color:#3e4144;
+    
+}
+
+.who-am-i h1{
+    color: #8c8c8c;
+}
+
+.who-am-i p{
+    margin: 1rem;
+    padding: 1rem;
+    color:white;
+}
+
+/*Finish who am i section*/
 
 
+/*Start experience section*/
+.experience{
+    width:100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.skills{
+    width:100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#8c8c8c;
+    text-align: center;
+}
+
+.skills h2{
+    color:#3e4144;
+    font-size: 18px;
+}
+
+label {
+    
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+
+
+.exp{
+    width:100%;
+    height: auto;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #3e4144;
+}
+
+.exp h2{
+    color:#8c8c8c;
+    font-size: 18px;
+}
+
+.exp p,h3{
+    color:white;
+}
+.exp h3{
+    font-size: 15px;
+}
+/*Finish experience section*/
+
+/*Start education section*/
+.education{
+    width:100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color:#3e4144;
+    
+}
+
+.education h1{
+    color: #8c8c8c;
+}
+
+.education h2{
+    color:white;
+    font-size: 15px;
+}
+
+.education p{
+    color:white;
+}
+/*Finish education section*/
+
+/*Start courses section*/
+.courses{
+    width:100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+ul{
+    
+    color:white
+}
+
+.certifications{
+    width:100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#8c8c8c;
+    text-align: center;
+}
+
+.certifications h2{
+    color:#3e4144;
+    font-size: 18px;
+}
+
+
+.course{
+    width:100%;
+    height: auto;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #3e4144;
+}
+
+.course h2{
+    color:#8c8c8c;
+    font-size: 18px;
+}
+/*Finish courses section*/
+
+
+/*Start contact section*/
+.contact{
+    width:100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #8c8c8c;
+    text-align: center;
+    color:whitesmoke;
+}
+
+
+/*Finish contact section*/
